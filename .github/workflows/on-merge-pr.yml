@@ -2,6 +2,7 @@ name: Merge Main into PR
 
 on:
   pull_request:
+    branches: [ main ]
     types: [closed]
 
 jobs:
